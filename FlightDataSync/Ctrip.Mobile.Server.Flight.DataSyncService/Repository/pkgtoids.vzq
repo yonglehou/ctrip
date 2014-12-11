@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using Ctrip.Mobile.Server.Flight.DataSyncService.Models;
+
+namespace Ctrip.Mobile.Server.Flight.DataSyncService.Repository
+{
+    internal class StaticDataRepository
+    {
+        public static List<StaticDataModel> GetSourceData()
+        {
+            List<StaticDataModel> list=new List<StaticDataModel>();
+            if (list.Count == 0) throw new Exception("从数据库中加载数据失败！！");
+            return list;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+namespace Ctrip.Mobile.Server.Flight.DataSyncService.Test
+{
+    [TestClass]
+    public class StaticRepositoryTest
+    {
+        [TestMethod, TestCategory("从数据源加载数据")]
+        public void LoadSourceData()
+        {
+
+        }
+    }
+}
